@@ -8,7 +8,7 @@ for (int ii = 1; ii < 3 && (numberTwo <= 100 | numberTwo > 999); ii++)
 }
 if (numberTwo <= 100 | numberTwo > 999)
 {
-    Console.WriteLine("Что-то пошло не так, программа прервана: ");
+    Console.WriteLine("Данные не корректны, попробуйте позже: ");
 }
 
 numberTwo = numberTwo / 10 % 10;
