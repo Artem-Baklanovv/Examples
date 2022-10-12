@@ -25,6 +25,8 @@ if (endNum == 4)
 else Console.WriteLine("Значение не пятизначное, попробуйте снова");
 
 
+//Добавил проверку на число
+
 strIsNum(numStr);
 
 void strIsNum(string Str)
